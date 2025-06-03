@@ -110,13 +110,10 @@
     document.getElementById("registrationForm").addEventListener("submit", function(event) {
       event.preventDefault(); // Stop form from submitting
       document.getElementById("popup").style.display = "block"; // Show popup
-       setTimeout(function() {
-      closePopup(); // Call the close function
-    }, 2000);
     });
    // Close popup function
     function closePopup() {
-     document.getElementById("popup").style.display = "none"; // Hide popu
+     document.getElementById("popup").style.display = "none"; 
     }
   </script>
   <div class="footer">
